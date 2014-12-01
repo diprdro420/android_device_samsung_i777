@@ -28,8 +28,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i777/bluetooth
 BOARD_HAVE_NFC := true
 
 # Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := cyanogenmod_i777_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/kern
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CONFIG := cm12_I777_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := i777,SGH-I777,SGH-S959G
