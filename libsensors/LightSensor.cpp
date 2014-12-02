@@ -22,11 +22,9 @@
 #include <dirent.h>
 #include <sys/select.h>
 
-#include "<lightsensor.h>"
+#include "LightSensor.h"
 
 #include <cutils/log.h>
-
-#include "LightSensor.h"
 
 // #define ALOG_NDEBUG 0
 
