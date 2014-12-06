@@ -29,8 +29,7 @@ BOARD_HAVE_NFC := true
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/kern
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := /home/brett/Desktop/toolchains/arm-cortex_a9-linux-gnueabihf-linaro_4.7.4-2014.01
-TARGET_KERNEL_CONFIG := cyanogenmod_i777_defconfig
+TARGET_KERNEL_CONFIG := kernel_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := i777,SGH-I777,SGH-S959G
